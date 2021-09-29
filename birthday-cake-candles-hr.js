@@ -11,8 +11,6 @@ function countCandles(candles) {
             counter++;
         }
     };
-    // const counter = candles.filter(candle => candle == maxCandle);
-    // return counter.length;
     return counter;
 }
 

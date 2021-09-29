@@ -9,7 +9,6 @@ function checkPalindrome(inputString) {
         }
         return true;
     } else {
-        console.log('odd letters', true)
         for (let i = 0; i < parseInt(inputString.length / 2); i++) {
             if (inputString[i] !== inputString[inputString.length - 1 - i]) {
                 return false;
@@ -19,6 +18,4 @@ function checkPalindrome(inputString) {
     }
 }
 
-// checkPalindrome('a');
 checkPalindrome('acda')
-// checkPalindrome('aabaa');

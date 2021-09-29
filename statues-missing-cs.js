@@ -8,7 +8,6 @@ function makeArrayConsecutive2(statues) {
 
     console.log(max - min);
     console.log(max - min - (statues.length - 2) - 1)
-    // return max - min - (statues.length - 2 - 1);
 }
 
 const arr = [6, 2, 3, 8];
